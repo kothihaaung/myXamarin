@@ -1,0 +1,1 @@
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/MonoAndroid,Version=v2.3.AssemblyAttribute.cs

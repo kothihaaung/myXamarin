@@ -1,0 +1,15 @@
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/System.Runtime.Serialization.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/System.ServiceModel.Internals.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/Xamarin.Forms.Platform.iOS.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/Xamarin.Forms.Platform.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/System.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/System.Xml.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/System.Core.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/Xamarin.Forms.Xaml.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/mscorlib.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/Xamarin.Forms.Core.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/HelloForms.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/System.Net.Http.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/build-iphone8.2-9.3.5/mtouch-cache/Link/HelloForms.iOS.exe

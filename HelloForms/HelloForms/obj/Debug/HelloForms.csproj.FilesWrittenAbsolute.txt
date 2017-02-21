@@ -1,0 +1,12 @@
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.App.xaml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.HelloFormsPage.xaml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.App.xaml.g.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.HelloFormsPage.xaml.g.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Debug/HelloForms.dll.mdb
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Debug/HelloForms.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.dll.mdb
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Debug/Xamarin.Forms.Core.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Debug/Xamarin.Forms.Xaml.dll
