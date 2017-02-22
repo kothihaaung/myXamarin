@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{D5B623ED-2218-46F3-8B22-26275FFD57BE}</ProjectGuid>
+    <ProjectGuid>{04708D13-FDE6-4CC3-B9E8-53C3402E8E27}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>HelloForms.iOS</RootNamespace>
@@ -23,7 +23,7 @@
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
-    <IOSDebuggerPort>13497</IOSDebuggerPort>
+    <IOSDebuggerPort>13238</IOSDebuggerPort>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -104,7 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HelloForms\HelloForms.csproj">
-      <Project>{3338F906-9B3A-4BC7-A373-80EE50B48511}</Project>
+      <Project>{59D36DB4-C574-46B9-96C9-87D2C0193E1C}</Project>
       <Name>HelloForms</Name>
     </ProjectReference>
   </ItemGroup>

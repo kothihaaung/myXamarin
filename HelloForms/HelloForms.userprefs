@@ -1,11 +1,9 @@
-﻿<Properties StartupConfiguration="{D5B623ED-2218-46F3-8B22-26275FFD57BE}|Default">
+﻿<Properties StartupConfiguration="{AD2D4343-E582-4E36-A225-746EC4D0B1F8}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.bdf65d0da9b2d8d837a5f47909be99a5f86bbcca" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloForms/HelloFormsPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloForms/HelloFormsPage.xaml">
     <Files>
-      <File FileName="HelloForms/App.xaml" Line="1" Column="1" />
-      <File FileName="HelloForms/App.xaml.cs" Line="10" Column="4" />
-      <File FileName="HelloForms/HelloFormsPage.xaml" Line="1" Column="1" />
-      <File FileName="HelloForms/HelloFormsPage.xaml.cs" Line="13" Column="1" />
+      <File FileName="HelloForms/HelloFormsPage.xaml" Line="14" Column="27" />
+      <File FileName="HelloForms/HelloFormsPage.xaml.cs" Line="8" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
@@ -13,5 +11,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HelloForms.Droid PreferredExecutionTarget="Android.Nexus_5_API_23" />
+  <MonoDevelop.Ide.ItemProperties.HelloForms.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_5_API_23" />
 </Properties>

@@ -463,22 +463,88 @@ bl _p_8
 Lme_5:
 .text
 	.align 4
-	.no_dead_strip HelloForms_HelloFormsPage_InitializeComponent
-HelloForms_HelloFormsPage_InitializeComponent:
-.file 4 "/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.HelloFormsPage.xaml.g.cs"
-.loc 4 20 0 prologue_end
-.word 0xa9bc7bfd
+	.no_dead_strip HelloForms_HelloFormsPage_didTapOnShowMsgButton_object_System_EventArgs
+HelloForms_HelloFormsPage_didTapOnShowMsgButton_object_System_EventArgs:
+.loc 3 13 0 prologue_end
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
 
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
 ldr x16, [x16, #184]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 14 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf940e400
+.word 0xf90027a0
+
+adrp x16, mono_aot_HelloForms_got@PAGE+0
+add x16, x16, mono_aot_HelloForms_got@PAGEOFF
+ldr x0, [x16, #192]
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_9
+.loc 3 15 0
+.word 0xf94017b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_6:
+.text
+	.align 4
+	.no_dead_strip HelloForms_HelloFormsPage_InitializeComponent
+HelloForms_HelloFormsPage_InitializeComponent:
+.file 4 "/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.HelloFormsPage.xaml.g.cs"
+.loc 4 26 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_HelloForms_got@PAGE+0
+add x16, x16, mono_aot_HelloForms_got@PAGEOFF
+ldr x16, [x16, #200]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
 .word 0xf9400fb1
-.word 0xf9403231
+.word 0xf9403631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
@@ -486,50 +552,118 @@ ldr x16, [x16, #184]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fb1
-.word 0xf9405231
+.word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 21 0
+.loc 4 27 0
 .word 0xf9400fb1
-.word 0xf9406231
+.word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9001ba0
+.word 0xaa1a03e0
 
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x0, [x16, #192]
-.word 0xf9001fa0
+ldr x0, [x16, #208]
+.word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401ba0
-.word 0xf9401fa1
+.word 0xf94033a1
 
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x15, [x16, #200]
-bl _p_9
+ldr x15, [x16, #216]
+.word 0xaa1a03e0
+bl _p_10
 .word 0xf9400fb1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 22 0
+.loc 4 28 0
 .word 0xf9400fb1
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_HelloForms_got@PAGE+0
+add x16, x16, mono_aot_HelloForms_got@PAGEOFF
+ldr x0, [x16, #224]
+.word 0xf9002fa0
 .word 0xf9400fb1
-.word 0xf940d231
+.word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xf9402fa1
+
+adrp x16, mono_aot_HelloForms_got@PAGE+0
+add x16, x16, mono_aot_HelloForms_got@PAGEOFF
+ldr x15, [x16, #232]
+.word 0xaa1a03e0
+bl _p_11
+.word 0xf9002ba0
+.word 0xf9400fb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf90027a0
+.word 0xf900e740
+.word 0x91072340
+bl _p_12
+.word 0xf94027a0
+.loc 4 29 0
+.word 0xf9400fb1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_HelloForms_got@PAGE+0
+add x16, x16, mono_aot_HelloForms_got@PAGEOFF
+ldr x0, [x16, #240]
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+
+adrp x16, mono_aot_HelloForms_got@PAGE+0
+add x16, x16, mono_aot_HelloForms_got@PAGEOFF
+ldr x15, [x16, #248]
+.word 0xaa1a03e0
+bl _p_13
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+.word 0xf9001ba0
+.word 0xf900eb40
+.word 0x91074340
+bl _p_12
+.word 0xf9401ba0
+.loc 4 30 0
+.word 0xf9400fb1
+.word 0xf941ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf941ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
 .word 0x910003bf
-.word 0xa8c47bfd
+.word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_6:
+Lme_7:
 .text
 	.align 3
 jit_code_end:
@@ -545,6 +679,7 @@ bl HelloForms_App_OnSleep
 bl HelloForms_App_OnResume
 bl HelloForms_App_InitializeComponent
 bl HelloForms_HelloFormsPage__ctor
+bl HelloForms_HelloFormsPage_didTapOnShowMsgButton_object_System_EventArgs
 bl HelloForms_HelloFormsPage_InitializeComponent
 bl method_addresses
 method_addresses_end:
@@ -565,7 +700,8 @@ unbox_trampoline_addresses:
 unwind_info:
 
 	.byte 16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,13,12,31,0,68,14,48,157,6,158,5,68,13,29,13
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,13,12
+	.byte 31,0,68,14,80,157,10,158,9,68,13,29,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 
 .text
 	.align 4
@@ -576,77 +712,109 @@ plt_Xamarin_Forms_Application__ctor:
 _p_1:
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #264]
 br x16
-.word 311
+.word 353
 	.no_dead_strip plt_HelloForms_App_InitializeComponent
 plt_HelloForms_App_InitializeComponent:
 _p_2:
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #272]
 br x16
-.word 316
+.word 358
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_fast
 plt__jit_icall_ves_icall_object_new_fast:
 _p_3:
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #280]
 br x16
-.word 318
+.word 360
 	.no_dead_strip plt_HelloForms_HelloFormsPage__ctor
 plt_HelloForms_HelloFormsPage__ctor:
 _p_4:
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #288]
 br x16
-.word 346
+.word 388
 	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
 plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_5:
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #296]
 br x16
-.word 348
+.word 390
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_HelloForms_App_HelloForms_App_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_HelloForms_App_HelloForms_App_System_Type:
 _p_6:
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #304]
 br x16
-.word 353
+.word 395
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_7:
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #312]
 br x16
-.word 365
+.word 407
 	.no_dead_strip plt_HelloForms_HelloFormsPage_InitializeComponent
 plt_HelloForms_HelloFormsPage_InitializeComponent:
 _p_8:
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #320]
 br x16
-.word 370
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_HelloForms_HelloFormsPage_HelloForms_HelloFormsPage_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_HelloForms_HelloFormsPage_HelloForms_HelloFormsPage_System_Type:
+.word 412
+	.no_dead_strip plt_Xamarin_Forms_Label_set_Text_string
+plt_Xamarin_Forms_Label_set_Text_string:
 _p_9:
 adrp x16, mono_aot_HelloForms_got@PAGE+0
 add x16, x16, mono_aot_HelloForms_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #328]
 br x16
-.word 372
+.word 414
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_HelloForms_HelloFormsPage_HelloForms_HelloFormsPage_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_HelloForms_HelloFormsPage_HelloForms_HelloFormsPage_System_Type:
+_p_10:
+adrp x16, mono_aot_HelloForms_got@PAGE+0
+add x16, x16, mono_aot_HelloForms_got@PAGEOFF
+ldr x16, [x16, #336]
+br x16
+.word 419
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string:
+_p_11:
+adrp x16, mono_aot_HelloForms_got@PAGE+0
+add x16, x16, mono_aot_HelloForms_got@PAGEOFF
+ldr x16, [x16, #344]
+br x16
+.word 431
+	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
+plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
+_p_12:
+adrp x16, mono_aot_HelloForms_got@PAGE+0
+add x16, x16, mono_aot_HelloForms_got@PAGEOFF
+ldr x16, [x16, #352]
+br x16
+.word 443
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string:
+_p_13:
+adrp x16, mono_aot_HelloForms_got@PAGE+0
+add x16, x16, mono_aot_HelloForms_got@PAGEOFF
+ldr x16, [x16, #360]
+br x16
+.word 450
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_HelloForms_got, 288
+.lcomm mono_aot_HelloForms_got, 368
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -669,7 +837,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "DE889528-2D59-4880-8CF4-72DDAFC5464B"
+	.asciz "14864F2D-0479-4798-AB3A-419499CE67E7"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -746,13 +914,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 26,288,10,8,70,923871743,0,1285
-	.long 128,8,8,10,0,14,1968,672
-	.long 344,184,0,288,320,232,0,176
+	.long 32,368,14,9,70,923871743,0,1534
+	.long 128,8,8,10,0,14,2232,688
+	.long 360,184,0,296,336,232,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 197,65,173,96,77,8,106,173,166,48,26,197,154,224,171,176
+	.byte 159,213,218,253,224,195,167,130,72,12,113,142,173,224,235,41
 	.globl _mono_aot_module_HelloForms_info
 	.align 3
 _mono_aot_module_HelloForms_info:
@@ -5344,29 +5512,379 @@ LTDIE_126_REFERENCE:
 	.byte 14
 LDIFF_SYM810=LTDIE_126 - Ldebug_info_start
 	.long LDIFF_SYM810
+LTDIE_132:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM811=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM811
+LTDIE_132_POINTER:
+
+	.byte 13
+LDIFF_SYM812=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM812
+LTDIE_132_REFERENCE:
+
+	.byte 14
+LDIFF_SYM813=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM813
+LTDIE_131:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+	.byte 32,16
+LDIFF_SYM814=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM814
+	.byte 2,35,0,6
+	.asciz "items"
+
+LDIFF_SYM815=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM815
+	.byte 2,35,16,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM816=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM816
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+LDIFF_SYM817=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM817
+LTDIE_131_POINTER:
+
+	.byte 13
+LDIFF_SYM818=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM818
+LTDIE_131_REFERENCE:
+
+	.byte 14
+LDIFF_SYM819=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM819
+LTDIE_133:
+
+	.byte 5
+	.asciz "_SimpleMonitor"
+
+	.byte 20,16
+LDIFF_SYM820=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM820
+	.byte 2,35,0,6
+	.asciz "_busyCount"
+
+LDIFF_SYM821=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM821
+	.byte 2,35,16,0,7
+	.asciz "_SimpleMonitor"
+
+LDIFF_SYM822=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM822
+LTDIE_133_POINTER:
+
+	.byte 13
+LDIFF_SYM823=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM823
+LTDIE_133_REFERENCE:
+
+	.byte 14
+LDIFF_SYM824=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM824
+LTDIE_130:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+	.byte 56,16
+LDIFF_SYM825=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM825
+	.byte 2,35,0,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM826=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM826
+	.byte 2,35,32,6
+	.asciz "PropertyChanged"
+
+LDIFF_SYM827=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM827
+	.byte 2,35,40,6
+	.asciz "_monitor"
+
+LDIFF_SYM828=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM828
+	.byte 2,35,48,0,7
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+LDIFF_SYM829=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM829
+LTDIE_130_POINTER:
+
+	.byte 13
+LDIFF_SYM830=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM830
+LTDIE_130_REFERENCE:
+
+	.byte 14
+LDIFF_SYM831=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM831
+LTDIE_129:
+
+	.byte 5
+	.asciz "Xamarin_Forms_View"
+
+	.byte 232,2,16
+LDIFF_SYM832=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM832
+	.byte 2,35,0,6
+	.asciz "_gestureRecognizers"
+
+LDIFF_SYM833=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM833
+	.byte 3,35,224,2,0,7
+	.asciz "Xamarin_Forms_View"
+
+LDIFF_SYM834=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM834
+LTDIE_129_POINTER:
+
+	.byte 13
+LDIFF_SYM835=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM835
+LTDIE_129_REFERENCE:
+
+	.byte 14
+LDIFF_SYM836=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM836
+LTDIE_135:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM837=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM837
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM838=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM838
+LTDIE_135_POINTER:
+
+	.byte 13
+LDIFF_SYM839=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM839
+LTDIE_135_REFERENCE:
+
+	.byte 14
+LDIFF_SYM840=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM840
+LTDIE_134:
+
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 40,16
+LDIFF_SYM841=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM841
+	.byte 2,35,0,6
+	.asciz "m_boxed"
+
+LDIFF_SYM842=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM842
+	.byte 2,35,16,6
+	.asciz "m_valueFactory"
+
+LDIFF_SYM843=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM843
+	.byte 2,35,24,6
+	.asciz "m_threadSafeObj"
+
+LDIFF_SYM844=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM844
+	.byte 2,35,32,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM845=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM845
+LTDIE_134_POINTER:
+
+	.byte 13
+LDIFF_SYM846=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM846
+LTDIE_134_REFERENCE:
+
+	.byte 14
+LDIFF_SYM847=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM847
+LTDIE_128:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Label"
+
+	.byte 248,2,16
+LDIFF_SYM848=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM848
+	.byte 2,35,0,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM849=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM849
+	.byte 3,35,232,2,6
+	.asciz "_cancelEvents"
+
+LDIFF_SYM850=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM850
+	.byte 3,35,240,2,0,7
+	.asciz "Xamarin_Forms_Label"
+
+LDIFF_SYM851=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM851
+LTDIE_128_POINTER:
+
+	.byte 13
+LDIFF_SYM852=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM852
+LTDIE_128_REFERENCE:
+
+	.byte 14
+LDIFF_SYM853=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM853
+LTDIE_138:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM854=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM854
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM855=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM855
+LTDIE_138_POINTER:
+
+	.byte 13
+LDIFF_SYM856=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM856
+LTDIE_138_REFERENCE:
+
+	.byte 14
+LDIFF_SYM857=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM857
+LTDIE_137:
+
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 40,16
+LDIFF_SYM858=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM858
+	.byte 2,35,0,6
+	.asciz "m_boxed"
+
+LDIFF_SYM859=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM859
+	.byte 2,35,16,6
+	.asciz "m_valueFactory"
+
+LDIFF_SYM860=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM860
+	.byte 2,35,24,6
+	.asciz "m_threadSafeObj"
+
+LDIFF_SYM861=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM861
+	.byte 2,35,32,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM862=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM862
+LTDIE_137_POINTER:
+
+	.byte 13
+LDIFF_SYM863=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM863
+LTDIE_137_REFERENCE:
+
+	.byte 14
+LDIFF_SYM864=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM864
+LTDIE_136:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Button"
+
+	.byte 128,3,16
+LDIFF_SYM865=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM865
+	.byte 2,35,0,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM866=LTDIE_137_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM866
+	.byte 3,35,232,2,6
+	.asciz "_cancelEvents"
+
+LDIFF_SYM867=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM867
+	.byte 3,35,248,2,6
+	.asciz "Clicked"
+
+LDIFF_SYM868=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM868
+	.byte 3,35,240,2,0,7
+	.asciz "Xamarin_Forms_Button"
+
+LDIFF_SYM869=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM869
+LTDIE_136_POINTER:
+
+	.byte 13
+LDIFF_SYM870=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM870
+LTDIE_136_REFERENCE:
+
+	.byte 14
+LDIFF_SYM871=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM871
 LTDIE_125:
 
 	.byte 5
 	.asciz "HelloForms_HelloFormsPage"
 
-	.byte 200,3,16
-LDIFF_SYM811=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM811
-	.byte 2,35,0,0,7
+	.byte 216,3,16
+LDIFF_SYM872=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM872
+	.byte 2,35,0,6
+	.asciz "msgLabel"
+
+LDIFF_SYM873=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM873
+	.byte 3,35,200,3,6
+	.asciz "showMsgButton"
+
+LDIFF_SYM874=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM874
+	.byte 3,35,208,3,0,7
 	.asciz "HelloForms_HelloFormsPage"
 
-LDIFF_SYM812=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM812
+LDIFF_SYM875=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM875
 LTDIE_125_POINTER:
 
 	.byte 13
-LDIFF_SYM813=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM813
+LDIFF_SYM876=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM876
 LTDIE_125_REFERENCE:
 
 	.byte 14
-LDIFF_SYM814=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM814
+LDIFF_SYM877=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM877
 	.byte 2
 	.asciz "HelloForms.HelloFormsPage:.ctor"
 	.asciz "HelloForms_HelloFormsPage__ctor"
@@ -5378,26 +5896,92 @@ LDIFF_SYM814=LTDIE_125 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM815=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM878=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM878
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM816=Lfde5_end - Lfde5_start
-	.long LDIFF_SYM816
+LDIFF_SYM879=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM879
 Lfde5_start:
 
 	.long 0
 	.align 3
 	.quad HelloForms_HelloFormsPage__ctor
 
-LDIFF_SYM817=Lme_5 - HelloForms_HelloFormsPage__ctor
-	.long LDIFF_SYM817
+LDIFF_SYM880=Lme_5 - HelloForms_HelloFormsPage__ctor
+	.long LDIFF_SYM880
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde5_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_139:
+
+	.byte 5
+	.asciz "System_EventArgs"
+
+	.byte 16,16
+LDIFF_SYM881=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM881
+	.byte 2,35,0,0,7
+	.asciz "System_EventArgs"
+
+LDIFF_SYM882=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM882
+LTDIE_139_POINTER:
+
+	.byte 13
+LDIFF_SYM883=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM883
+LTDIE_139_REFERENCE:
+
+	.byte 14
+LDIFF_SYM884=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM884
+	.byte 2
+	.asciz "HelloForms.HelloFormsPage:didTapOnShowMsgButton"
+	.asciz "HelloForms_HelloFormsPage_didTapOnShowMsgButton_object_System_EventArgs"
+
+	.byte 3,13
+	.quad HelloForms_HelloFormsPage_didTapOnShowMsgButton_object_System_EventArgs
+	.quad Lme_6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM885=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM885
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM886=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM886
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM887=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM887
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM888=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM888
+Lfde6_start:
+
+	.long 0
+	.align 3
+	.quad HelloForms_HelloFormsPage_didTapOnShowMsgButton_object_System_EventArgs
+
+LDIFF_SYM889=Lme_6 - HelloForms_HelloFormsPage_didTapOnShowMsgButton_object_System_EventArgs
+	.long LDIFF_SYM889
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde6_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -5405,33 +5989,33 @@ Lfde5_end:
 	.asciz "HelloForms.HelloFormsPage:InitializeComponent"
 	.asciz "HelloForms_HelloFormsPage_InitializeComponent"
 
-	.byte 4,20
+	.byte 4,26
 	.quad HelloForms_HelloFormsPage_InitializeComponent
-	.quad Lme_6
+	.quad Lme_7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM818=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM818
-	.byte 2,141,16,0
+LDIFF_SYM890=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM890
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM819=Lfde6_end - Lfde6_start
-	.long LDIFF_SYM819
-Lfde6_start:
+LDIFF_SYM891=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM891
+Lfde7_start:
 
 	.long 0
 	.align 3
 	.quad HelloForms_HelloFormsPage_InitializeComponent
 
-LDIFF_SYM820=Lme_6 - HelloForms_HelloFormsPage_InitializeComponent
-	.long LDIFF_SYM820
+LDIFF_SYM892=Lme_7 - HelloForms_HelloFormsPage_InitializeComponent
+	.long LDIFF_SYM892
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde6_end:
+Lfde7_end:
 
 .section __DWARF, __debug_info,regular,debug
 

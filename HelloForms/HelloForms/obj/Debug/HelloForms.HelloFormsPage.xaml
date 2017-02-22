@@ -1,4 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:HelloForms" x:Class="HelloForms.HelloFormsPage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+	<ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="20, 40, 20, 20"
+                    Android="20, 20, 20, 20" />
+     </ContentPage.Padding>
+	<StackLayout VerticalOptions="FillAndExpand"
+				HorizontalOptions="FillAndExpand"
+				Orientation="Vertical"
+				Spacing="15">
+
+		<Label x:Name="msgLabel" Text="Welcome to Xamarin Forms!" />
+		<Button x:Name="showMsgButton" Text="Show Msg" Clicked="didTapOnShowMsgButton" />
+	</StackLayout>
+
 </ContentPage>

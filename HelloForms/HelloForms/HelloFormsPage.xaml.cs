@@ -8,5 +8,10 @@ namespace HelloForms
 		{
 			InitializeComponent();
 		}
+
+		void didTapOnShowMsgButton(object sender, System.EventArgs e)
+		{
+			msgLabel.Text = "Hello from Thiha!";
+		}
 	}
 }
