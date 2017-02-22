@@ -29,9 +29,15 @@ namespace HelloForms
 
 				if (e.SelectedItem == null) return; // don't do anything if we just de-selected the row
 
-				await DisplayAlert("Tapped", e.SelectedItem + " row was selected", "OK");
+				await DisplayAlert("Tapped On Item", e.SelectedItem + " row was selected", "OK");
 
 			};
+		}
+
+		// Did tap on Button
+		void didTapOnButton(Object sender, System.EventArgs e)
+		{
+			DisplayAlert("", "Tapped on Button", "OK"); 
 		}
 	}
 }

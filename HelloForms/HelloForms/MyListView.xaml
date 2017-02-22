@@ -10,7 +10,7 @@
 				Orientation="Vertical"
 				Spacing="15">
 
-		<ListView x:Name="myListView">
+		<ListView x:Name="myListView" RowHeight="100">
 			<ListView.ItemTemplate>
 				<DataTemplate>
 					<ViewCell>
@@ -19,8 +19,8 @@
 								HorizontalOptions="FillAndExpand"
 								Padding="0, 10, 0, 10">
 
-								<Label Text="{Binding}" BackgroundColor="#eeeeee" />
-								<Button Text="Tap" BackgroundColor="#d38787" WidthRequest="100" HorizontalOptions="EndAndExpand" />
+								<Label Text="{Binding}" BackgroundColor="#eeeeee" HorizontalOptions="StartAndExpand" />
+								<Button Text="Tap" Clicked="didTapOnButton" BackgroundColor="#d38787" WidthRequest="100" HorizontalOptions="End" />
 							</StackLayout>
 					</ViewCell>
 				</DataTemplate>
