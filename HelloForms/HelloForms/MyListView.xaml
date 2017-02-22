@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloForms.MyListView">
+	<ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="0, 100, 0, 0"
+                    Android="0, 100, 0, 0" />
+     </ContentPage.Padding>
+	<StackLayout x:Name="stackLayout" VerticalOptions="FillAndExpand"
+				HorizontalOptions="FillAndExpand"
+				Orientation="Vertical"
+				Spacing="15">
+
+		<ListView x:Name="myListView">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<StackLayout Orientation="Horizontal"
+								VerticalOptions="FillAndExpand"
+								HorizontalOptions="FillAndExpand"
+								Padding="0, 10, 0, 10">
+
+								<Label Text="{Binding}" BackgroundColor="#eeeeee" />
+								<Button Text="Tap" BackgroundColor="#d38787" WidthRequest="100" HorizontalOptions="EndAndExpand" />
+							</StackLayout>
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</StackLayout>
+</ContentPage>

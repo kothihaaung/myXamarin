@@ -17,16 +17,24 @@ namespace HelloForms {
     public partial class HelloFormsPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.StackLayout stackLayout;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label msgLabel;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button showMsgButton;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button showMsgButton2;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(HelloFormsPage));
+            stackLayout = this.FindByName <global::Xamarin.Forms.StackLayout>("stackLayout");
             msgLabel = this.FindByName <global::Xamarin.Forms.Label>("msgLabel");
             showMsgButton = this.FindByName <global::Xamarin.Forms.Button>("showMsgButton");
+            showMsgButton2 = this.FindByName <global::Xamarin.Forms.Button>("showMsgButton2");
         }
     }
 }
