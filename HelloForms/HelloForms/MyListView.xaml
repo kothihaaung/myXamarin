@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloForms.MyListView">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="myPage" x:Class="HelloForms.MyListView">
 	<ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness"
                     iOS="0, 100, 0, 0"
@@ -10,6 +10,8 @@
 				Orientation="Vertical"
 				Spacing="15">
 
+		<Label x:Name="tappedNameLabel" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" />
+	
 		<ListView x:Name="myListView" RowHeight="100">
 			<ListView.ItemTemplate>
 				<DataTemplate>
@@ -19,9 +21,14 @@
 								HorizontalOptions="FillAndExpand"
 								Padding="0, 10, 0, 10">
 
-								<Label Text="{Binding}" BackgroundColor="#eeeeee" HorizontalOptions="StartAndExpand" />
-								<Button Text="Tap" Clicked="didTapOnButton" BackgroundColor="#d38787" WidthRequest="100" HorizontalOptions="End" />
-							</StackLayout>
+								<Label Text="{Binding Name}" BackgroundColor="#eeeeee" HorizontalOptions="StartAndExpand" />
+								<Button Text="Tap" 
+									Command="{Binding tapCommand, Source={x:Reference myPage}}" 
+									CommandParameter="{Binding Name}" 
+									BackgroundColor="#d38787" 
+									WidthRequest="100" 
+									HorizontalOptions="End" />
+						</StackLayout>
 					</ViewCell>
 				</DataTemplate>
 			</ListView.ItemTemplate>

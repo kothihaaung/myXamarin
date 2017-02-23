@@ -1,28 +1,42 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 
 using Xamarin.Forms;
 
+
 namespace HelloForms
 {
-	public partial class MyListView : ContentPage
+	class Employee
 	{
+		public string Name { get; set; }
+
+		public int empIndex { get; set; }
+	}
+
+	public partial class MyListView : ContentPage, INotifyPropertyChanged
+	{
+
+		public string tappedName { get;  private set; }
+
+		public Command tapCommand { get; private set; } 
+
 		public MyListView()
 		{
 			InitializeComponent();
 
-			myListView.ItemsSource = new string[] { 
-				"mono",
-  				"monodroid",
-  				"monotouch",
-  				"monorail",
-  				"monodevelop",
-  				"monotone",
-  				"monopoly",
-  				"monomodal",
-  				"mononucleosis"
-			};
+			ObservableCollection<Employee> employees = new ObservableCollection<Employee>();
 
+			employees.Add(new Employee { Name = "Thiha", empIndex=0 });
+			employees.Add(new Employee { Name = "Leo", empIndex = 1 });
+			employees.Add(new Employee { Name = "Angel", empIndex = 2 });
+			employees.Add(new Employee { Name = "Daniel", empIndex = 3 });
+			employees.Add(new Employee { Name = "Luffy", empIndex = 4 });
+			employees.Add(new Employee { Name = "Naruto", empIndex = 5 });
+
+			myListView.ItemsSource = employees;
+
+			// Add event to ListView
 			myListView.ItemSelected += async (sender, e) => { 
 			
 				((ListView)sender).SelectedItem = null; // de-select the row
@@ -32,12 +46,15 @@ namespace HelloForms
 				await DisplayAlert("Tapped On Item", e.SelectedItem + " row was selected", "OK");
 
 			};
-		}
 
-		// Did tap on Button
-		void didTapOnButton(Object sender, System.EventArgs e)
-		{
-			DisplayAlert("", "Tapped on Button", "OK"); 
+			// Button's tap command
+			tapCommand = new Command<string> (didTapOnButton); 
 		}
+	
+		void didTapOnButton(string name)
+		{
+			tappedNameLabel.Text = name;
+		}
+	
 	}
 }

@@ -471,7 +471,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "ECE7894B-64B5-4267-B676-933D27DDC1FC"
+	.asciz "16306229-DA5C-4AAE-8417-F4C029A6E91B"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -554,7 +554,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 152,160,82,47,9,49,2,36,252,207,155,42,238,23,49,26
+	.byte 237,162,66,127,176,88,169,208,222,43,73,139,171,190,21,98
 	.globl _mono_aot_module_HelloForms_iOS_info
 	.align 3
 _mono_aot_module_HelloForms_iOS_info:

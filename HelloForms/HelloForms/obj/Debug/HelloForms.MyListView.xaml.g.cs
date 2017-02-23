@@ -20,12 +20,16 @@ namespace HelloForms {
         private global::Xamarin.Forms.StackLayout stackLayout;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label tappedNameLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView myListView;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MyListView));
             stackLayout = this.FindByName <global::Xamarin.Forms.StackLayout>("stackLayout");
+            tappedNameLabel = this.FindByName <global::Xamarin.Forms.Label>("tappedNameLabel");
             myListView = this.FindByName <global::Xamarin.Forms.ListView>("myListView");
         }
     }
