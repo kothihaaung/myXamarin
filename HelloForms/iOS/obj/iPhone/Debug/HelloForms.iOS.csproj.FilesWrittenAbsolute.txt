@@ -13,3 +13,5 @@
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhone/Debug/HelloForms.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhone/Debug/HelloForms.dll.mdb
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/device-builds/iphone8.4-10.1.1/optimized/
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhone/Debug/device-builds/iphone8.2-9.3.5/optimized/

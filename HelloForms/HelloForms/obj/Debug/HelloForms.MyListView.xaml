@@ -10,7 +10,7 @@
 				Orientation="Vertical"
 				Spacing="15">
 
-		<Label x:Name="tappedNameLabel" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" />
+		<Label x:Name="tappedNameLabel" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Gray" />
 	
 		<ListView x:Name="myListView" RowHeight="100">
 			<ListView.ItemTemplate>

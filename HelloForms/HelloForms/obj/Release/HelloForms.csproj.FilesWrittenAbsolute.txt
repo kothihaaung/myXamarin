@@ -1,0 +1,12 @@
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Release/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Release/HelloForms.App.xaml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Release/HelloForms.HelloFormsPage.xaml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Release/HelloForms.MyListView.xaml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Release/HelloForms.App.xaml.g.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Release/HelloForms.HelloFormsPage.xaml.g.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Release/HelloForms.MyListView.xaml.g.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Release/HelloForms.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Release/HelloForms.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Release/Xamarin.Forms.Core.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Release/Xamarin.Forms.Platform.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Release/Xamarin.Forms.Xaml.dll

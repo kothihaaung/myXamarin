@@ -1,0 +1,14 @@
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhoneSimulator/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhoneSimulator/Release/optimized/
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhoneSimulator/Release/HelloForms.iOS.exe.mdb
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhoneSimulator/Release/HelloForms.iOS.exe
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhoneSimulator/Release/HelloForms.iOS.exe
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhoneSimulator/Release/HelloForms.iOS.exe.mdb
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Core.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Platform.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Platform.iOS.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Xaml.dll
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhoneSimulator/Release/HelloForms.dll

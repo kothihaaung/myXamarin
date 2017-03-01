@@ -1,4 +1,4 @@
-/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/MonoAndroid,Version=v7.0.AssemblyAttribute.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/MonoAndroid,Version=v7.1.AssemblyAttribute.cs
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/XbdMerge/Xamarin.Android.Support.Compat.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/XbdMerge/Xamarin.Android.Support.Core.UI.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/XbdMerge/Xamarin.Android.Support.Core.Utils.dll
