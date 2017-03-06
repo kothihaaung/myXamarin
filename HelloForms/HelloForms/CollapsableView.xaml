@@ -14,7 +14,7 @@
 				HorizontalOptions="FillAndExpand" 
 				VerticalOptions="FillAndExpand"
 
-				RowHeight="100"
+				HasUnevenRows="true"
 				BackgroundColor="Gray">
 
 				<ListView.ItemTemplate>
@@ -22,12 +22,13 @@
 						<ViewCell>
 							<StackLayout Orientation="Horizontal"
 								HorizontalOptions="FillAndExpand"
-								VerticalOptions="FillAndExpand">
+								HeightRequest="200">
 
-								<Button x:Name="myButton" Text="{Binding}"
+								<Button 
 									HorizontalOptions="FillAndExpand"
 									VerticalOptions="FillAndExpand"
 
+									Text="{Binding}"
 									TextColor="White"
 									BackgroundColor="Teal"
 
