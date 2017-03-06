@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-
 using Xamarin.Forms;
 
 namespace HelloForms
 {
 	public partial class CollapsableView : ContentPage
 	{
+		public Command buttonClickCommand { get; set; }
+
 		public CollapsableView()
 		{
 			InitializeComponent();
-
-			var layout = new StackLayout();
 
 			// Absolute Layout
 			var absLayout = new AbsoluteLayout()
@@ -30,12 +29,10 @@ namespace HelloForms
 				BackgroundColor = Color.Gray
 			};
 
-			var listView = new ListView()
-			{
-				BackgroundColor = Color.Gray,
-				VerticalOptions = LayoutOptions.FillAndExpand,
-				HorizontalOptions = LayoutOptions.FillAndExpand
-			};
+
+			AbsoluteLayout.SetLayoutBounds(centerLabel, new Rectangle(10, 50, 200, 100));
+
+			absLayout.Children.Add(centerLabel);
 
 			var dataSource = new ObservableCollection<String> { 
 				"ByObservableCol",
@@ -49,32 +46,13 @@ namespace HelloForms
 			  	"mononucleosis"
 			};
 
-			listView.ItemsSource = dataSource;
+			myListView.ItemsSource = dataSource;
 
-			// remove selection
-			listView.ItemSelected += (sender, e) => {
-
-				((ListView)sender).SelectedItem = null;
-			};
-
-			listView.ItemTapped += (sender, e) => {
-
-				var item = e.Item;
-
-				dataSource.Remove((String)item);
-
-				System.Diagnostics.Debug.WriteLine(e.Item);
-			};
-
-			AbsoluteLayout.SetLayoutBounds(centerLabel, new Rectangle(10, 50, 200, 100));
-
-			absLayout.Children.Add(centerLabel);
-
-			layout.Children.Add(listView);
-
-			//layout.Spacing = 10;
-
-			Content = layout;
+			// button click
+			buttonClickCommand = new Command<String> ((string butTitle) => { 
+			
+				dataSource.Remove((String)butTitle);
+			});
 		}
 	}
 }

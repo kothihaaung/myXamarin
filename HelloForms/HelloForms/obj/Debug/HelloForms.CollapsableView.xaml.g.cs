@@ -17,8 +17,12 @@ namespace HelloForms {
     public partial class CollapsableView : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView myListView;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(CollapsableView));
+            myListView = this.FindByName <global::Xamarin.Forms.ListView>("myListView");
         }
     }
 }
