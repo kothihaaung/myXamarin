@@ -1,8 +1,9 @@
-﻿<Properties StartupConfiguration="{AD2D4343-E582-4E36-A225-746EC4D0B1F8}|Default">
+﻿<Properties StartupConfiguration="{04708D13-FDE6-4CC3-B9E8-53C3402E8E27}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2A64C11-141E-4E83-B6E5-F39536A02BFB" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloForms/MyListView.xaml.cs">
     <Files>
-      <File FileName="HelloForms/MyListView.xaml.cs" Line="23" Column="26" />
+      <File FileName="HelloForms/CollapsableView.xaml.cs" Line="36" Column="6" />
+      <File FileName="HelloForms/MyListView.xaml.cs" Line="2" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
