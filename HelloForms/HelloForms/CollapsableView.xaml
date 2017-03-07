@@ -28,7 +28,7 @@
 									HorizontalOptions="FillAndExpand"
 									VerticalOptions="FillAndExpand"
 
-									Text="{Binding}"
+									Text="{Binding name}"
 									TextColor="White"
 									BackgroundColor="Teal"
 

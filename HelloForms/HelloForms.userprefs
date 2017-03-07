@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.HelloForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2A64C11-141E-4E83-B6E5-F39536A02BFB" />
   <MonoDevelop.Ide.Workbench ActiveDocument="HelloForms/CollapsableView.xaml.cs">
     <Files>
-      <File FileName="HelloForms/CollapsableView.xaml.cs" Line="32" Column="4" />
+      <File FileName="HelloForms/CollapsableView.xaml.cs" Line="50" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
