@@ -9,6 +9,7 @@ namespace HelloForms
 	class CarGroup
 	{
 		public string name { get; set; }
+		public string rowHeight { get; set; }
 		public ObservableCollection<Car> carList;
 	}
 
@@ -69,16 +70,21 @@ namespace HelloForms
 			carSaloonList.Add(toyotaSaloon);
 			carSaloonList.Add(nissanSaloon);
 
-			carGroup.Add(new CarGroup { name="SUV", carList=carSuvList });
-			carGroup.Add(new CarGroup { name = "Truck", carList = carTruckList });
-			carGroup.Add(new CarGroup { name = "Saloon", carList = carSaloonList });
+			carGroup.Add(new CarGroup { name = "SUV", rowHeight="50", carList=carSuvList });
+			carGroup.Add(new CarGroup { name = "Truck", rowHeight="100", carList = carTruckList });
+			carGroup.Add(new CarGroup { name = "Saloon", rowHeight="200", carList = carSaloonList });
 
 			myListView.ItemsSource = carGroup;
 
 			// button click
-			buttonClickCommand = new Command<CarGroup> ((removingCarGroup) => { 
-			
+			buttonClickCommand = new Command<CarGroup> ((removingCarGroup) => {
+
 				carGroup.Remove(removingCarGroup);
+
+				//var dropAnimation = new Animation(d =>
+				//{
+				//	removingCarGroup.rowHeight = d;
+				//}, removingCarGroup.rowHeight, "200");
 			});
 		}
 	}

@@ -36,6 +36,9 @@
     <EmbeddedResource Include="CollapsableView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomRenderer.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -50,6 +53,9 @@
     </Compile>
     <Compile Include="CollapsableView.xaml.cs">
       <DependentUpon>CollapsableView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomRenderer.xaml.cs">
+      <DependentUpon>CustomRenderer.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

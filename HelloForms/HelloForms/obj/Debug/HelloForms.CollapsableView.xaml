@@ -22,7 +22,7 @@
 						<ViewCell>
 							<StackLayout Orientation="Horizontal"
 								HorizontalOptions="FillAndExpand"
-								HeightRequest="200">
+								HeightRequest="{Binding rowHeight}">
 
 								<Button 
 									HorizontalOptions="FillAndExpand"

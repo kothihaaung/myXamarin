@@ -14,3 +14,5 @@
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.CollapsableView.xaml
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.CollapsableView.xaml.g.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.CustomRenderer.xaml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/obj/Debug/HelloForms.CustomRenderer.xaml.g.cs
