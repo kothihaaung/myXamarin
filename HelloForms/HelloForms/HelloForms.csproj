@@ -57,6 +57,7 @@
     <Compile Include="CustomRenderer.xaml.cs">
       <DependentUpon>CustomRenderer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListViewAdvance.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

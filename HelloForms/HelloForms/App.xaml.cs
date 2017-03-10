@@ -8,7 +8,7 @@ namespace HelloForms
 		{
 			InitializeComponent();
 
-			MainPage = new CollapsableView();
+			MainPage = new ListViewAdvance();
 		}
 
 		protected override void OnStart()

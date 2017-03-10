@@ -19,6 +19,7 @@
 
 				<ListView.ItemTemplate>
 					<DataTemplate>
+						<!-- put 'Height=value' in ViewCell for HasUnevenRows -->
 						<ViewCell>
 							<StackLayout Orientation="Horizontal"
 								HorizontalOptions="FillAndExpand"

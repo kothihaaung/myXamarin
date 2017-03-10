@@ -1,8 +1,9 @@
-﻿<Properties StartupConfiguration="{04708D13-FDE6-4CC3-B9E8-53C3402E8E27}|Default">
+﻿<Properties StartupConfiguration="{AD2D4343-E582-4E36-A225-746EC4D0B1F8}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2A64C11-141E-4E83-B6E5-F39536A02BFB" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloForms/ListViewAdvance.cs">
     <Files>
-      <File FileName="HelloForms/CustomRenderer.xaml.cs" Line="10" Column="3" />
+      <File FileName="HelloForms/ListViewAdvance.cs" Line="62" Column="43" />
+      <File FileName="HelloForms/App.xaml.cs" Line="10" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

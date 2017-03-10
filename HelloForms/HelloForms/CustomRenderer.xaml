@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloForms.CustomRenderer">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Name="myClass" 
+	x:Class="HelloForms.CustomRenderer"
+	xmlns:local="clr-namespace:CustomRenderer;assembly=CustomRenderer">
+	
 	<ContentPage.Content>
-		<RelativeLayout x:Name="layout">
-			<!--
-			<BoxView x:Name="redBox" Color="Red">
-			</BoxView>
-			<BoxView x:Name="greenBox" Color="Green">
-			</BoxView>
-			-->
-		</RelativeLayout>
+		<ListView x:Name="listView" HasUnevenRows="true">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell Height="200">
+						<StackLayout>
+							<Button Text="{Binding field1}" 
+								Command="{Binding clickCommand, Source={x:Reference myClass}}"
+								CommandParameter="{Binding}"
+								BackgroundColor="Gray" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+								</Button>
+						</StackLayout>
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
 	</ContentPage.Content>
 </ContentPage>
