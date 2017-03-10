@@ -26,10 +26,14 @@ namespace HelloForms
 		}
 
 		StackLayout layout;
+		ContentPage page;
 		public Button button { get; set; }
 
-		public MyViewCell()
+		public MyViewCell(ContentPage page)
 		{
+
+			this.page = page;
+
 			// row height
 			this.Height = 200;
 
@@ -43,14 +47,23 @@ namespace HelloForms
 				HorizontalOptions = LayoutOptions.FillAndExpand
 			};
 
-			//button.Clicked += (sender, e) => {
+			button.Clicked += (sender, e) => {
 
-			//	var heightValue = (string)GetValue(MyHeightProperty);
-			//	this.Height = 50;
-			//	this.ForceUpdateSize();
-			//	System.Diagnostics.Debug.WriteLine("Clicked! " + heightValue);
+				//var heightValue = (string)GetValue(MyHeightProperty);
+				//this.Height = 50;
+				//this.ForceUpdateSize();
 
-			//};
+				var dropAnimation = new Animation(d =>
+				{
+					this.Height = d;
+					this.ForceUpdateSize();
+				}
+				, this.Height
+				, 0
+				, Easing.Linear);
+
+				dropAnimation.Commit(page, "DropSize", 16, (uint)350, Easing.Linear);
+			};
 
 			layout.Children.Add(button);
 
@@ -64,8 +77,9 @@ namespace HelloForms
 
 			MyModel myModel = (MyModel)BindingContext;
 
-			this.Height = Convert.ToDouble(myModel.RowHeight);
-			this.ForceUpdateSize();
+			//this.Height = Convert.ToDouble(myModel.RowHeight);
+			//this.ForceUpdateSize();
+
 
 			System.Diagnostics.Debug.WriteLine("Binding Contex Changed!");
 		}
@@ -76,8 +90,12 @@ namespace HelloForms
 		ListView listView;
 		ObservableCollection<MyModel> datasource;
 
+		ListViewAdvance thisClass;
+
 		public ListViewAdvance()
 		{
+			thisClass = this;
+
 			datasource = new ObservableCollection<MyModel> {
 
 					new MyModel { RowHeight="100" },
@@ -85,22 +103,22 @@ namespace HelloForms
 					new MyModel { RowHeight="300" }
 			};
 
-			listView = new ListView(ListViewCachingStrategy.RecycleElement)
+			listView = new ListView(ListViewCachingStrategy.RetainElement)
 			{
 				ItemsSource = datasource,
 				ItemTemplate = new DataTemplate(() =>
 				{
-					var myViewCell = new MyViewCell();
+					var myViewCell = new MyViewCell(thisClass);
 
 					myViewCell.button.SetBinding(Button.TextProperty, "RowHeight");
 					myViewCell.SetBinding(MyViewCell.MyHeightProperty, "RowHeight");
-					myViewCell.button.Clicked += (sender, e) => {
+					//myViewCell.button.Clicked += (sender, e) => {
 
-						MyModel myModel = new MyModel {  RowHeight= "50" };
+					//	MyModel myModel = new MyModel {  RowHeight= "50" };
 
-						datasource.RemoveAt(1);
-						datasource.Insert(1, myModel);
-					};
+					//	datasource.RemoveAt(1);
+					//	datasource.Insert(1, myModel);
+					//};
 
 					return myViewCell;
 				})
