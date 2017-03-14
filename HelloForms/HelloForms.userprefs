@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{AD2D4343-E582-4E36-A225-746EC4D0B1F8}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2A64C11-141E-4E83-B6E5-F39536A02BFB" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloForms/ListViewAdvance.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/NativeAndroidListViewAdapter.cs">
     <Files>
-      <File FileName="HelloForms/ListViewAdvance.cs" Line="62" Column="43" />
-      <File FileName="HelloForms/App.xaml.cs" Line="10" Column="4" />
+      <File FileName="Droid/NativeAndroidListViewAdapter.cs" Line="18" Column="4" />
+      <File FileName="Droid/NativeAndroidListViewRenderer.cs" Line="31" Column="55" />
+      <File FileName="HelloForms/CustomRenderer.xaml.cs" Line="20" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

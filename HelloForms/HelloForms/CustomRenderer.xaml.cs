@@ -7,8 +7,27 @@ using Xamarin.Forms;
 namespace HelloForms
 {
 	
+	public class NativeListView : ListView
+	{
+		public static readonly BindableProperty ItemsProperty =
+			BindableProperty.Create("Items", typeof(IEnumerable<string>), typeof(NativeListView), new List<string>());
 
+		public IEnumerable<string> Items
+		{
+			get { return (IEnumerable<string>)GetValue(ItemsProperty); }
+			set { SetValue(ItemsProperty, value); }
+		}
 
+		public event EventHandler<SelectedItemChangedEventArgs> ItemSelected;
+
+		public void NotifyItemSelected(object item)
+		{
+			if (ItemSelected != null)
+			{
+				ItemSelected(this, new SelectedItemChangedEventArgs(item));
+			}
+		}
+	}
 
 	public partial class CustomRenderer : ContentPage
 	{
@@ -24,12 +43,16 @@ namespace HelloForms
 			//                    Constraint.RelativeToParent ((p) => { return p.Width; }),
 			//                    Constraint.RelativeToParent ((p) => { return p.Height * .50; }));
 
-			listView.ItemsSource = new ObservableCollection<MyModel> { 
-			
-				new MyModel { RowHeight="100" },
-				new MyModel { RowHeight="100" },
-				new MyModel { RowHeight="100" }
-			};
+			//var dataSource = new List<MyModel> { 
+
+			//	new MyModel { RowHeight="100" },
+			//	new MyModel { RowHeight="100" },
+			//	new MyModel { RowHeight="100" }
+			//};
+
+			var dataSource = new List<string> { "one", "two", "three" };
+
+			listView = new NativeListView { Items=dataSource };
 
 			clickCommand = new Command<MyModel>((obj) => {
 

@@ -58,6 +58,7 @@
       <DependentUpon>CustomRenderer.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListViewAdvance.cs" />
+    <Compile Include="MyAndroidListViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

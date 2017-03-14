@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{18026E4C-0C10-4DAA-A217-E93608AAE31B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Resources/values/styles.xml">
+    <Files>
+      <File FileName="Droid/Resources/values/styles.xml" Line="11" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CollapsableView.Droid PreferredExecutionTarget="Android.Nexus_5_API_23" />
+  <MonoDevelop.Ide.ItemProperties.CollapsableView.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.99F5A34E-D91B-4A87-B866-C6A544B07FE4" />
+</Properties>

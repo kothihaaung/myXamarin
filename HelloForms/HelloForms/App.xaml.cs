@@ -8,7 +8,7 @@ namespace HelloForms
 		{
 			InitializeComponent();
 
-			MainPage = new ListViewAdvance();
+			MainPage = new CustomRenderer();
 		}
 
 		protected override void OnStart()

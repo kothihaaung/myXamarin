@@ -17,12 +17,12 @@ namespace HelloForms {
     public partial class CustomRenderer : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView listView;
+        private global::HelloForms.NativeListView listView;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(CustomRenderer));
-            listView = this.FindByName <global::Xamarin.Forms.ListView>("listView");
+            listView = this.FindByName <global::HelloForms.NativeListView>("listView");
         }
     }
 }
