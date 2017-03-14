@@ -2,6 +2,10 @@ CollapsableView.Droid.MainActivity, CollapsableView.Droid;md5c30935eac3418b2b272
 CollapsableView.Droid.MainActivity, CollapsableView.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c30935eac3418b2b27296956e9e61816.MainActivity
 CollapsableView.Droid.MainActivity;md5c30935eac3418b2b27296956e9e61816.MainActivity
 collapsableview.droid.MainActivity;md5c30935eac3418b2b27296956e9e61816.MainActivity
+CollapsableView.Droid.CollapsableViewRenderer, CollapsableView.Droid;md5c30935eac3418b2b27296956e9e61816.CollapsableViewRenderer
+CollapsableView.Droid.CollapsableViewRenderer, CollapsableView.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c30935eac3418b2b27296956e9e61816.CollapsableViewRenderer
+CollapsableView.Droid.CollapsableViewRenderer;md5c30935eac3418b2b27296956e9e61816.CollapsableViewRenderer
+collapsableview.droid.CollapsableViewRenderer;md5c30935eac3418b2b27296956e9e61816.CollapsableViewRenderer
 Xamarin.Forms.Platform.Android.CellAdapter, Xamarin.Forms.Platform.Android;md5b60ffeb829f638581ab2bb9b1a7f4f3f.CellAdapter
 Xamarin.Forms.Platform.Android.CellAdapter, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5b60ffeb829f638581ab2bb9b1a7f4f3f.CellAdapter
 Xamarin.Forms.Platform.Android.CellAdapter;md5b60ffeb829f638581ab2bb9b1a7f4f3f.CellAdapter

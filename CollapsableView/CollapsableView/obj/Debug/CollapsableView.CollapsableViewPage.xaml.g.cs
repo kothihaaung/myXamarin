@@ -17,8 +17,12 @@ namespace CollapsableView {
     public partial class CollapsableViewPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::CollapsableView.MyCollapsableView collapsableView;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(CollapsableViewPage));
+            collapsableView = this.FindByName <global::CollapsableView.MyCollapsableView>("collapsableView");
         }
     }
 }
