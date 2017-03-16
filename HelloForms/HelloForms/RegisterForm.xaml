@@ -1,6 +1,272 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloForms.RegisterForm">
 	<ContentPage.Content>
-		
+		<ScrollView>
+			<StackLayout Spacing="10" Orientation="Vertical">
+				<Label Text="TEST DRIVE"
+
+					HeightRequest="50"
+
+					HorizontalOptions="FillAndExpand"
+					VerticalOptions="Fill"
+					LineBreakMode="WordWrap"
+					HorizontalTextAlignment="Center"
+					VerticalTextAlignment="Center"
+					FontSize="18"
+					TextColor="Red"
+					BackgroundColor="White" />
+
+				<!-- 1 CHOOSE YOUR MODEL -->
+				<StackLayout
+
+					Spacing="0"
+					Orientation="Vertical"
+					HorizontalOptions="FillAndExpand"
+					VerticalOptions="Fill"
+					BackgroundColor="White"
+					>
+
+					<!-- 1 CHOOSE YOUR MODEL -->
+					<StackLayout
+						Orientation="Horizontal"
+						Spacing="10"
+						HorizontalOptions="FillAndExpand"
+						VerticalOptions="Fill"
+						HeightRequest="30"
+						BackgroundColor="White"
+						>
+
+						<Label 
+							Text="1" 
+							HorizontalOptions="Fill" 
+							VerticalOptions="FillAndExpand" 
+							WidthRequest="30" 
+							BackgroundColor="Gray"
+							VerticalTextAlignment="Center"
+							HorizontalTextAlignment="Center"
+						/>
+						<Label 
+							Text="CHOOSE YOUR MODEL" 
+							HorizontalOptions="Start" 
+							TextColor="Gray"
+							VerticalTextAlignment="Center"
+							HorizontalTextAlignment="Center"
+						/>
+					</StackLayout>
+					<StackLayout
+						Spacing="5"
+						Padding="10 ,0 ,0 ,0"
+						Orientation="Vertical"
+						HorizontalOptions="FillAndExpand"
+						VerticalOptions="FillAndExpand"
+						>
+						<Label
+							VerticalOptions="Fill"
+							HeightRequest="30"
+							BackgroundColor="White"
+							FontAttributes="Bold"
+							VerticalTextAlignment="Center"
+							Text="Model*"
+							TextColor="Gray"
+						/>
+						<Label
+							Text="NEW GRAND C4 PICASSO"
+							TextColor="#f07814"
+							FontAttributes="Bold"
+							BackgroundColor="White"
+						/>
+						<AbsoluteLayout>
+							<Image
+								AbsoluteLayout.LayoutBounds="0, 0, 1, 150"
+                				AbsoluteLayout.LayoutFlags="WidthProportional"
+								BackgroundColor="White"
+								Source="Nouveau_Grand_C4_Picasso.png"
+							/>
+							<Label
+								Text=">"
+								TextColor="Gray"
+								VerticalTextAlignment="Center"
+								FontSize="20"
+								AbsoluteLayout.LayoutBounds="1, .5, 40, 40"
+                				AbsoluteLayout.LayoutFlags="PositionProportional"
+							/>
+						</AbsoluteLayout>
+
+					</StackLayout>
+
+				</StackLayout>
+
+				<!-- SELECT YOUR DELEARSHIP -->
+				<StackLayout
+					Spacing="0"
+					HorizontalOptions="FillAndExpand"
+					VerticalOptions="Fill"
+					BackgroundColor="Red"
+					>
+					<StackLayout
+						Orientation="Horizontal"
+						Spacing="10"
+						HorizontalOptions="FillAndExpand"
+						VerticalOptions="Fill"
+						HeightRequest="30"
+						BackgroundColor="White"
+						>
+
+						<Label 
+							Text="2" 
+							HorizontalOptions="Fill" 
+							VerticalOptions="FillAndExpand" 
+							WidthRequest="30" 
+							BackgroundColor="Gray"
+							VerticalTextAlignment="Center"
+							HorizontalTextAlignment="Center"
+						/>
+						<Label 
+							Text="SELECT YOUR DEALERSHIP" 
+							HorizontalOptions="Start" 
+							TextColor="Gray"
+							VerticalTextAlignment="Center"
+							HorizontalTextAlignment="Center"
+						/>
+					</StackLayout>
+					<AbsoluteLayout
+						BackgroundColor="#009aca"
+						>
+							<Label
+								Text="Citroën Singapore 239 Alexandra Road"
+								LineBreakMode="WordWrap"
+								AbsoluteLayout.LayoutBounds="10, 0, 1, 70"
+                				AbsoluteLayout.LayoutFlags="WidthProportional"
+								VerticalTextAlignment="Center"
+							/>
+							<Label
+								Text=">"
+								FontSize="20"
+								VerticalTextAlignment="Center"
+								AbsoluteLayout.LayoutBounds="1, .5, 40, 40"
+                				AbsoluteLayout.LayoutFlags="PositionProportional"
+							/>
+					</AbsoluteLayout>
+				</StackLayout>
+
+				<!-- ENTER YOUR CONTACT DETAILS -->
+				<StackLayout
+					Spacing="0"
+					Orientation="Vertical"
+					HorizontalOptions="FillAndExpand"
+					VerticalOptions="FillAndExpand"
+					BackgroundColor="Yellow"
+					>
+					<StackLayout
+						Orientation="Horizontal"
+						Spacing="10"
+						HorizontalOptions="FillAndExpand"
+						VerticalOptions="Fill"
+						HeightRequest="30"
+						BackgroundColor="White"
+						>
+
+						<Label 
+							Text="3" 
+							HorizontalOptions="Fill" 
+							VerticalOptions="FillAndExpand" 
+							WidthRequest="30" 
+							BackgroundColor="Gray"
+							VerticalTextAlignment="Center"
+							HorizontalTextAlignment="Center"
+						/>
+						<Label 
+							Text="ENTER YOUR CONTACT DETAILS" 
+							HorizontalOptions="Start" 
+							TextColor="Gray"
+							VerticalTextAlignment="Center"
+							HorizontalTextAlignment="Center"
+						/>
+					</StackLayout>
+					<StackLayout
+						Spacing="0"
+						HorizontalOptions="FillAndExpand"
+						VerticalOptions="FillAndExpand"
+						>
+						<StackLayout
+							Padding="10, 0, 0, 0"
+							Orientation="Horizontal"
+							VerticalOptions="Fill"
+							HeightRequest="40"
+							BackgroundColor="White"
+							>
+							<Label 
+								Text="Titles*"
+								VerticalTextAlignment="Center"
+								TextColor="Gray"
+
+							/>
+						</StackLayout>
+						<StackLayout
+							VerticalOptions="FillAndExpand"
+							BackgroundColor="Aqua"
+							>
+							<Entry
+								TextColor="White"
+								VerticalOptions="Fill"
+								Placeholder="First Name*"
+								PlaceholderColor="White"
+								BackgroundColor="Gray">
+							</Entry>
+							<Entry
+								TextColor="White"
+								VerticalOptions="Fill"
+								Placeholder="Last Name*"
+								PlaceholderColor="White"
+								BackgroundColor="Gray">
+							</Entry>
+							<Entry
+								TextColor="White"
+								VerticalOptions="Fill"
+								Placeholder="Email Address*"
+								PlaceholderColor="White"
+								BackgroundColor="Gray">
+							</Entry>
+							<Entry
+								TextColor="White"
+								VerticalOptions="Fill"
+								Placeholder="Mobile*"
+								PlaceholderColor="White"
+								BackgroundColor="Gray">
+							</Entry>
+							<Entry
+								TextColor="White"
+								VerticalOptions="Fill"
+								Placeholder="Address Line 1"
+								PlaceholderColor="White"
+								BackgroundColor="Gray">
+							</Entry>
+							<Entry
+								TextColor="White"
+								VerticalOptions="Fill"
+								Placeholder="Address Line 2"
+								PlaceholderColor="White"
+								BackgroundColor="Gray">
+							</Entry>
+							<Entry
+								TextColor="White"
+								VerticalOptions="Fill"
+								Placeholder="Zip Code"
+								PlaceholderColor="White"
+								BackgroundColor="Gray">
+							</Entry>
+							<Entry
+								TextColor="White"
+								VerticalOptions="Fill"
+								Placeholder="City"
+								PlaceholderColor="White"
+								BackgroundColor="Gray">
+							</Entry>
+
+						</StackLayout>
+					</StackLayout>
+				</StackLayout>
+			</StackLayout>
+		</ScrollView>
 	</ContentPage.Content>
 </ContentPage>

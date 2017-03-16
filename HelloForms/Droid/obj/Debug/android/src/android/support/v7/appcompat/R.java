@@ -2794,13 +2794,13 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int avd_hide_password=0x7f020053;
-        public static final int avd_hide_password_1=0x7f02010a;
-        public static final int avd_hide_password_2=0x7f02010b;
-        public static final int avd_hide_password_3=0x7f02010c;
+        public static final int avd_hide_password_1=0x7f02010b;
+        public static final int avd_hide_password_2=0x7f02010c;
+        public static final int avd_hide_password_3=0x7f02010d;
         public static final int avd_show_password=0x7f020054;
-        public static final int avd_show_password_1=0x7f02010d;
-        public static final int avd_show_password_2=0x7f02010e;
-        public static final int avd_show_password_3=0x7f02010f;
+        public static final int avd_show_password_1=0x7f02010e;
+        public static final int avd_show_password_2=0x7f02010f;
+        public static final int avd_show_password_3=0x7f020110;
         public static final int design_bottom_navigation_item_background=0x7f020055;
         public static final int design_fab_background=0x7f020056;
         public static final int design_ic_visibility=0x7f020057;
@@ -2978,10 +2978,11 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f020103;
         public static final int notification_bg_normal_pressed=0x7f020104;
         public static final int notification_icon_background=0x7f020105;
-        public static final int notification_template_icon_bg=0x7f020108;
-        public static final int notification_template_icon_low_bg=0x7f020109;
+        public static final int notification_template_icon_bg=0x7f020109;
+        public static final int notification_template_icon_low_bg=0x7f02010a;
         public static final int notification_tile_bg=0x7f020106;
         public static final int notify_panel_notification_icon_bg=0x7f020107;
+        public static final int nouveau_grand_c4_picasso=0x7f020108;
     }
     public static final class id {
         public static final int action0=0x7f0c009a;

@@ -13,3 +13,4 @@
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhoneSimulator/Debug/HelloForms.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/bin/iPhoneSimulator/Debug/HelloForms.dll.mdb
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhoneSimulator/Debug/optimized/Nouveau_Grand_C4_Picasso.png
