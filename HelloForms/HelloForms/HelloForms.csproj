@@ -39,6 +39,9 @@
     <EmbeddedResource Include="CustomRenderer.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="RegisterForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -59,6 +62,9 @@
     </Compile>
     <Compile Include="ListViewAdvance.cs" />
     <Compile Include="MyAndroidListViewRenderer.cs" />
+    <Compile Include="RegisterForm.xaml.cs">
+      <DependentUpon>RegisterForm.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -9,7 +9,7 @@ namespace CollapsableView
 		{
 			InitializeComponent();
 
-			collapsableView.Items = new List<string> { "Four", "Five", "Six" };
+			collapsableView.Items = new List<string { "Four", "Five", "Six" };
 		}
 	}
 }

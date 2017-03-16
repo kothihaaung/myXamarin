@@ -34,6 +34,7 @@ namespace CollapsableView.Droid
 			{
 				var collpsableView = e.NewElement as MyCollapsableView;
 
+
 				// subscribe
 				Control.Adapter = new ArrayAdapter<String>(Forms.Context as Activity,
 														   Android.Resource.Layout.SimpleListItem1,

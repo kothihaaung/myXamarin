@@ -1,6 +1,6 @@
-# Version: 10.4.0.123 (cycle9: 35d1ccd)
-# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.4.0.123/lib/mtouch/mtouch.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/10.4.0.123/lib/mtouch/mtouch.exe \
+# Version: 10.4.0.128 (cycle9: ba11e48)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.4.0.128/lib/mtouch/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/10.4.0.128/lib/mtouch/mtouch.exe \
 	--cache \
 	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
@@ -31,13 +31,13 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.193/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.193/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.193/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.193/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
 	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Debug/HelloForms.dll \
 	-r \
@@ -305,13 +305,13 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.193/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.193/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.193/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.180/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/packages/Xamarin.Forms.2.3.3.193/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
 	/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/HelloForms/bin/Debug/HelloForms.dll \
 	--target-framework \

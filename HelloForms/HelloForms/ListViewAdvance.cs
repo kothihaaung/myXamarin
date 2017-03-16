@@ -58,9 +58,7 @@ namespace HelloForms
 					this.Height = d;
 					this.ForceUpdateSize();
 				}
-				, this.Height
-				, 0
-				, Easing.Linear);
+				,this.Height, 0, Easing.BounceIn);
 
 				dropAnimation.Commit(page, "DropSize", 16, (uint)350, Easing.Linear);
 			};
