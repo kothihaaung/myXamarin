@@ -127,6 +127,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="NativeiOSListViewRenderer.cs" />
+    <Compile Include="MyEntryRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Nouveau_Grand_C4_Picasso.png" />

@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloForms.RegisterForm">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="HelloForms.RegisterForm"
+	xmlns:local="clr-namespace:HelloForms;assembly=HelloForms"
+	>
 	<ContentPage.Content>
 		<ScrollView>
-			<StackLayout Spacing="10" Orientation="Vertical">
-				<Label Text="TEST DRIVE"
-
-					HeightRequest="50"
-
-					HorizontalOptions="FillAndExpand"
-					VerticalOptions="Fill"
-					LineBreakMode="WordWrap"
-					HorizontalTextAlignment="Center"
-					VerticalTextAlignment="Center"
-					FontSize="18"
-					TextColor="Red"
-					BackgroundColor="White" />
-
+			<StackLayout Spacing="0" Orientation="Vertical">
 				<!-- 1 CHOOSE YOUR MODEL -->
 				<StackLayout
 
@@ -33,7 +24,7 @@
 						HorizontalOptions="FillAndExpand"
 						VerticalOptions="Fill"
 						HeightRequest="30"
-						BackgroundColor="White"
+						BackgroundColor="#009aca"
 						>
 
 						<Label 
@@ -48,10 +39,10 @@
 						<Label 
 							Text="CHOOSE YOUR MODEL" 
 							HorizontalOptions="Start" 
-							TextColor="Gray"
+							TextColor="White"
 							VerticalTextAlignment="Center"
 							HorizontalTextAlignment="Center"
-						/>
+							/>
 					</StackLayout>
 					<StackLayout
 						Spacing="5"
@@ -101,7 +92,6 @@
 					Spacing="0"
 					HorizontalOptions="FillAndExpand"
 					VerticalOptions="Fill"
-					BackgroundColor="Red"
 					>
 					<StackLayout
 						Orientation="Horizontal"
@@ -109,7 +99,7 @@
 						HorizontalOptions="FillAndExpand"
 						VerticalOptions="Fill"
 						HeightRequest="30"
-						BackgroundColor="White"
+						BackgroundColor="#009aca"
 						>
 
 						<Label 
@@ -124,18 +114,20 @@
 						<Label 
 							Text="SELECT YOUR DEALERSHIP" 
 							HorizontalOptions="Start" 
-							TextColor="Gray"
+							TextColor="White"
 							VerticalTextAlignment="Center"
 							HorizontalTextAlignment="Center"
 						/>
 					</StackLayout>
 					<AbsoluteLayout
-						BackgroundColor="#009aca"
+						BackgroundColor="White"
 						>
 							<Label
+								x:Name = "dealerLocation"
 								Text="Citroën Singapore 239 Alexandra Road"
 								LineBreakMode="WordWrap"
 								AbsoluteLayout.LayoutBounds="10, 0, 1, 70"
+								TextColor="Gray"
                 				AbsoluteLayout.LayoutFlags="WidthProportional"
 								VerticalTextAlignment="Center"
 							/>
@@ -145,6 +137,7 @@
 								VerticalTextAlignment="Center"
 								AbsoluteLayout.LayoutBounds="1, .5, 40, 40"
                 				AbsoluteLayout.LayoutFlags="PositionProportional"
+								TextColor="Gray"
 							/>
 					</AbsoluteLayout>
 				</StackLayout>
@@ -155,7 +148,6 @@
 					Orientation="Vertical"
 					HorizontalOptions="FillAndExpand"
 					VerticalOptions="FillAndExpand"
-					BackgroundColor="Yellow"
 					>
 					<StackLayout
 						Orientation="Horizontal"
@@ -163,7 +155,7 @@
 						HorizontalOptions="FillAndExpand"
 						VerticalOptions="Fill"
 						HeightRequest="30"
-						BackgroundColor="White"
+						BackgroundColor="#009aca"
 						>
 
 						<Label 
@@ -178,7 +170,7 @@
 						<Label 
 							Text="ENTER YOUR CONTACT DETAILS" 
 							HorizontalOptions="Start" 
-							TextColor="Gray"
+							TextColor="White"
 							VerticalTextAlignment="Center"
 							HorizontalTextAlignment="Center"
 						/>
@@ -203,65 +195,74 @@
 							/>
 						</StackLayout>
 						<StackLayout
+							Padding="10, 0, 10, 0"
 							VerticalOptions="FillAndExpand"
-							BackgroundColor="Aqua"
+							HorizontalOptions="FillAndExpand"
 							>
-							<Entry
-								TextColor="White"
+							<local:MyEntry
+								TextColor="Gray"
 								VerticalOptions="Fill"
+								HeightRequest="40"
 								Placeholder="First Name*"
-								PlaceholderColor="White"
-								BackgroundColor="Gray">
-							</Entry>
-							<Entry
-								TextColor="White"
+								PlaceholderColor="Gray"
+								BackgroundColor="White">
+							</local:MyEntry>
+							<local:MyEntry
+								TextColor="Gray"
 								VerticalOptions="Fill"
+								HeightRequest="40"
 								Placeholder="Last Name*"
-								PlaceholderColor="White"
-								BackgroundColor="Gray">
-							</Entry>
-							<Entry
-								TextColor="White"
+								PlaceholderColor="Gray"
+								BackgroundColor="White">
+							</local:MyEntry>
+							<local:MyEntry
+								TextColor="Gray"
 								VerticalOptions="Fill"
+								HeightRequest="40"
 								Placeholder="Email Address*"
-								PlaceholderColor="White"
-								BackgroundColor="Gray">
-							</Entry>
-							<Entry
-								TextColor="White"
+								PlaceholderColor="Gray"
+								BackgroundColor="White">
+							</local:MyEntry>
+							<local:MyEntry
+								TextColor="Gray"
 								VerticalOptions="Fill"
+								HeightRequest="40"
 								Placeholder="Mobile*"
-								PlaceholderColor="White"
-								BackgroundColor="Gray">
-							</Entry>
-							<Entry
-								TextColor="White"
+								PlaceholderColor="Gray"
+								BackgroundColor="White">
+							</local:MyEntry>
+							<local:MyEntry
+								TextColor="Gray"
 								VerticalOptions="Fill"
+								HeightRequest="40"
 								Placeholder="Address Line 1"
-								PlaceholderColor="White"
-								BackgroundColor="Gray">
-							</Entry>
-							<Entry
+								PlaceholderColor="Gray"
+								BackgroundColor="White">
+							</local:MyEntry>
+							<local:MyEntry
 								TextColor="White"
 								VerticalOptions="Fill"
+								HeightRequest="40"
 								Placeholder="Address Line 2"
-								PlaceholderColor="White"
-								BackgroundColor="Gray">
-							</Entry>
-							<Entry
-								TextColor="White"
+								PlaceholderColor="Gray"
+								BackgroundColor="White">
+							</local:MyEntry>
+							<local:MyEntry
+								TextColor="Gray"
 								VerticalOptions="Fill"
+								HeightRequest="40"
 								Placeholder="Zip Code"
-								PlaceholderColor="White"
-								BackgroundColor="Gray">
-							</Entry>
-							<Entry
-								TextColor="White"
+								PlaceholderColor="Gray"
+								BackgroundColor="White">
+							</local:MyEntry>
+							<local:MyEntry
+								TextColor="Gray"
 								VerticalOptions="Fill"
+								HeightRequest="40"
 								Placeholder="City"
-								PlaceholderColor="White"
-								BackgroundColor="Gray">
-							</Entry>
+								PlaceholderColor="Gray"
+								BackgroundColor="White">
+							</local:MyEntry>
 
 						</StackLayout>
 					</StackLayout>

@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{AD2D4343-E582-4E36-A225-746EC4D0B1F8}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2A64C11-141E-4E83-B6E5-F39536A02BFB" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloForms/RegisterForm.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MyEntryRenderer.cs">
     <Files>
-      <File FileName="HelloForms/RegisterForm.xaml.cs" Line="11" Column="2" />
+      <File FileName="HelloForms/RegisterForm.xaml.cs" Line="18" Column="3" />
+      <File FileName="HelloForms/MyEntry.cs" Line="5" Column="21" />
+      <File FileName="iOS/MyEntryRenderer.cs" Line="23" Column="4" />
+      <File FileName="Droid/MyEntryRenderer.cs" Line="25" Column="87" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

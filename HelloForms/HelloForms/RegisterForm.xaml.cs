@@ -5,30 +5,22 @@ using Xamarin.Forms;
 
 namespace HelloForms
 {
-	public class PageModel
-	{
-		
-	}
-
-	public class PageTypeGroup : List<PageModel>
-	{
-		public string Title { get; set; }
-		public string ShortName { get; set; } //will be used for jump lists
-		public string Subtitle { get; set; }
-		private PageTypeGroup(string title, string shortName)
-		{
-			Title = title;
-			ShortName = shortName;
-		}
-
-		public static IList<PageTypeGroup> All { private set; get; }
-	}
-
 	public partial class RegisterForm : ContentPage
 	{
+		public static readonly BindableProperty DealershipLocationProperty =
+			BindableProperty.Create("DealershipLocation", typeof(string), typeof(RegisterForm), null);
+
+		public string DealershipLocation
+		{
+			get { return (string)GetValue(DealershipLocationProperty); }
+			set { SetValue(DealershipLocationProperty, value); }
+		}
+
 		public RegisterForm()
 		{
 			InitializeComponent();
+
+			this.Title = "TEST DRIVE";
 
 		}
 	}

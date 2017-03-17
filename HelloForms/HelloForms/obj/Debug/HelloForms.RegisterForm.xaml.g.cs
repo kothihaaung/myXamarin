@@ -17,8 +17,12 @@ namespace HelloForms {
     public partial class RegisterForm : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label dealerLocation;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(RegisterForm));
+            dealerLocation = this.FindByName <global::Xamarin.Forms.Label>("dealerLocation");
         }
     }
 }

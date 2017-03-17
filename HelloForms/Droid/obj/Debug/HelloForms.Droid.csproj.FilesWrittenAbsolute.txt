@@ -51,3 +51,4 @@
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/MonoAndroid,Version=v7.0.AssemblyAttribute.cs
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/res/layout/mylayout.xml
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/res/drawable/nouveau_grand_c4_picasso.png
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/res/drawable/myentryborderlayout.xml
