@@ -5,11 +5,15 @@ namespace CollapsableView
 {
 	public partial class CollapsableViewPage : ContentPage
 	{
+		List<string> itemSource;
+
 		public CollapsableViewPage()
 		{
 			InitializeComponent();
 
-			collapsableView.Items = new List<string { "Four", "Five", "Six" };
+			itemSource = new List<string> { "Four", "Five", "Six" };
+			collapsableView.Items = itemSource;
+
 		}
 	}
 }

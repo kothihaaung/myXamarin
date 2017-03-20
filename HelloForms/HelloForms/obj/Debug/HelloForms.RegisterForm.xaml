@@ -120,15 +120,17 @@
 						/>
 					</StackLayout>
 					<AbsoluteLayout
+						VerticalOptions="Fill"
 						BackgroundColor="White"
+						HeightRequest="50"
 						>
 							<Label
 								x:Name = "dealerLocation"
 								Text="Citroën Singapore 239 Alexandra Road"
 								LineBreakMode="WordWrap"
-								AbsoluteLayout.LayoutBounds="10, 0, 1, 70"
+								AbsoluteLayout.LayoutBounds="10, 0, 1, 1"
 								TextColor="Gray"
-                				AbsoluteLayout.LayoutFlags="WidthProportional"
+                				AbsoluteLayout.LayoutFlags="WidthProportional, HeightProportional"
 								VerticalTextAlignment="Center"
 							/>
 							<Label
@@ -196,6 +198,7 @@
 						</StackLayout>
 						<StackLayout
 							Padding="10, 0, 10, 0"
+							Spacing="20"
 							VerticalOptions="FillAndExpand"
 							HorizontalOptions="FillAndExpand"
 							>

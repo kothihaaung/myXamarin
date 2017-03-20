@@ -8,7 +8,8 @@ namespace CollapsableView
 {
 	public class MyCollapsableView: ListView
 	{
-		
+		public event Func<int, int> didItemRemoveAtPosition;
+
 		public IEnumerable<string> Items
 		{
 			get;
@@ -17,6 +18,12 @@ namespace CollapsableView
 
 		public MyCollapsableView()
 		{
+			
+		}
+
+		public void itemDeletedWithAnimation(int position)
+		{
+			didItemRemoveAtPosition(position);	
 		}
 	}
 }

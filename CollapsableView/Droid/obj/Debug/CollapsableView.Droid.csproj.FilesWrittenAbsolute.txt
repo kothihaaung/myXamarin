@@ -52,3 +52,4 @@
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/CollapsableView/Droid/bin/Debug/Xamarin.Android.Support.v7.MediaRouter.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/CollapsableView/Droid/bin/Debug/CollapsableView.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/CollapsableView/Droid/bin/Debug/CollapsableView.dll.mdb
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/CollapsableView/Droid/obj/Debug/res/layout/mycell.xml

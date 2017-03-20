@@ -112,6 +112,7 @@
     <Compile Include="NativeAndroidListViewAdapter.cs" />
     <Compile Include="NativeAndroidListViewRenderer.cs" />
     <Compile Include="MyEntryRenderer.cs" />
+    <Compile Include="MyListViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

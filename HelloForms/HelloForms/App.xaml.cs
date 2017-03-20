@@ -8,7 +8,8 @@ namespace HelloForms
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new RegisterForm());
+			//MainPage = new NavigationPage(new RegisterForm());
+			MainPage = new CustomListView();
 		}
 
 		protected override void OnStart()

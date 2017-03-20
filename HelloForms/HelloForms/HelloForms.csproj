@@ -42,6 +42,9 @@
     <EmbeddedResource Include="RegisterForm.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomListView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -67,6 +70,9 @@
     </Compile>
     <Compile Include="AnimationWithLayout.cs" />
     <Compile Include="MyEntry.cs" />
+    <Compile Include="CustomListView.xaml.cs">
+      <DependentUpon>CustomListView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

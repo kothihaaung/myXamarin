@@ -16,6 +16,8 @@ namespace CollapsableView.Droid
 {
 	public class CollapsableViewRenderer: ListViewRenderer
 	{
+		ArrayAdapter _adapter;	
+
 		public CollapsableViewRenderer()
 		{
 		}
@@ -36,11 +38,27 @@ namespace CollapsableView.Droid
 
 
 				// subscribe
-				Control.Adapter = new ArrayAdapter<String>(Forms.Context as Activity,
+				_adapter = new ArrayAdapter<String>(Forms.Context as Activity,
 														   Android.Resource.Layout.SimpleListItem1,
 				                                           collpsableView.Items.ToList());
-				//Control.ItemClick += OnItemClick;
+				Control.Adapter = _adapter;
+				Control.ItemClick += (sender, itemClickEventArg) => {
+
+					itemClickEventArg.View.Animate()
+			 		.SetDuration(500)
+			 		.Alpha(0)
+			 		.WithEndAction(new Java.Lang.Runnable(() =>
+					{
+						_adapter.Remove(itemClickEventArg.Id);
+						var collapListView = (MyCollapsableView)Element;
+						collapListView.itemDeletedWithAnimation(itemClickEventArg.Position);
+					}));
+				};
+
 			}
+
+
 		}
+
 	}
 }

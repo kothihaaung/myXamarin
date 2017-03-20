@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{18026E4C-0C10-4DAA-A217-E93608AAE31B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/CollapsableViewRenderer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CollapsableView/MyCollapsableView.cs">
     <Files>
-      <File FileName="CollapsableView/MyCollapsableView.cs" Line="11" Column="3" />
-      <File FileName="CollapsableView/CollapsableViewPage.xaml.cs" Line="8" Column="31" />
-      <File FileName="Droid/CollapsableViewRenderer.cs" Line="32" Column="4" />
+      <File FileName="CollapsableView/MyCollapsableView.cs" Line="22" Column="4" />
+      <File FileName="Droid/CollapsableViewRenderer.cs" Line="53" Column="55" />
+      <File FileName="CollapsableView/CollapsableViewPage.xaml.cs" Line="13" Column="4" />
       <File FileName="Droid/CollapsableViewAdapter.cs" Line="19" Column="7" />
-      <File FileName="Droid/Resources/layout/MyCell.axml" Line="3" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -14,6 +13,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CollapsableView.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_5_api_23" />
+  <MonoDevelop.Ide.ItemProperties.CollapsableView.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.GalaxyNexus_api_24" />
   <MonoDevelop.Ide.ItemProperties.CollapsableView.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.99F5A34E-D91B-4A87-B866-C6A544B07FE4" />
 </Properties>

@@ -27,6 +27,18 @@ namespace HelloForms.iOS
 				Control.BorderStyle = UITextBorderStyle.Line;
 				Control.Layer.BorderColor = UIColor.Gray.CGColor;
 				Control.Font = UIFont.SystemFontOfSize(15);
+
+				Control.EditingDidBegin += (sender, arg) => {
+
+					UITextField textField = (UITextField) sender;
+					textField.Layer.BorderWidth = 2;
+				};
+
+				Control.EditingDidEnd += (sender, arg) => { 
+
+					UITextField textField = (UITextField)sender;
+					textField.Layer.BorderWidth = 1;
+				};
 			}
 		}
 	}
