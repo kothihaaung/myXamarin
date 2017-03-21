@@ -94,6 +94,7 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MyRenderers\CollapseViewRenderer.cs" />
+    <Compile Include="MyRenderers\CollapseRecyclerView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -109,6 +110,8 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\layout\MyCollapseViewLayout.axml" />
+    <AndroidResource Include="Resources\layout\MyCollapseViewItemLayout.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MyRenderers\" />

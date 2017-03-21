@@ -30,3 +30,5 @@
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/Droid/bin/Debug/MyDemo.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/Droid/bin/Debug/MyDemo.dll.mdb
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/Droid/obj/Debug/res/layout/mycollapseviewlayout.xml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/Droid/obj/Debug/res/layout/mycollapseviewitemlayout.xml
