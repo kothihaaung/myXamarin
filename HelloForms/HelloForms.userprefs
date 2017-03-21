@@ -1,11 +1,13 @@
-﻿<Properties StartupConfiguration="{04708D13-FDE6-4CC3-B9E8-53C3402E8E27}|Default">
+﻿<Properties StartupConfiguration="{AD2D4343-E582-4E36-A225-746EC4D0B1F8}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2A64C11-141E-4E83-B6E5-F39536A02BFB" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloForms/ListViewAdvance.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloForms/CustomListView.xaml.cs">
     <Files>
-      <File FileName="HelloForms/CustomListView.xaml.cs" Line="21" Column="45" />
-      <File FileName="Droid/MyListViewRenderer.cs" Line="23" Column="1" />
-      <File FileName="iOS/MyiOSListViewRenderer.cs" Line="26" Column="5" />
+      <File FileName="HelloForms/CustomListView.xaml.cs" Line="26" Column="2" />
+      <File FileName="Droid/MyDroidCustomViewCellRenderer.cs" Line="22" Column="4" />
+      <File FileName="Droid/MyListViewRenderer.cs" Line="44" Column="7" />
+      <File FileName="Droid/Resources/anim/slide_out.xml" Line="6" Column="7" />
       <File FileName="HelloForms/ListViewAdvance.cs" Line="1" Column="1" />
+      <File FileName="Droid/Resources/layout/MyAndroidCell.axml" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -13,6 +15,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HelloForms.Droid PreferredExecutionTarget="Android.GalaxyNexus_api_24" />
+  <MonoDevelop.Ide.ItemProperties.HelloForms.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.GalaxyNexus_api_24" />
   <MultiItemStartupConfigurations />
 </Properties>

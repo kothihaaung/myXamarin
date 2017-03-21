@@ -52,3 +52,5 @@
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/res/layout/mylayout.xml
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/res/drawable/nouveau_grand_c4_picasso.png
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/res/drawable/myentryborderlayout.xml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/res/anim/slide_out.xml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/HelloForms/Droid/obj/Debug/res/layout/myandroidcell.xml

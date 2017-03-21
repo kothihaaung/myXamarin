@@ -19,6 +19,7 @@ using HelloForms;
 using HelloForms.Droid;
 
 using Java.Lang;
+using Android.Views.Animations;
 
 [assembly: ExportRenderer(typeof(MyCustomListView), typeof(MyListViewRenderer))]
 namespace HelloForms.Droid
@@ -34,23 +35,38 @@ namespace HelloForms.Droid
 
 			if (e.NewElement != null)
 			{
-				Control.ItemClick += OnItemClick;
-				_adapter = (HeaderViewListAdapter) Control.Adapter;
+				_adapter = (HeaderViewListAdapter)Control.Adapter;
+
+				Android.Views.Animations.Animation animation = AnimationUtils.LoadAnimation(Forms.Context as Android.App.Activity, Resource.Animation.slide_out);
+				animation.AnimationEnd += (sender, eAnim) => { 
+
+
+				};
+
+				Control.ItemClick += (sender, eItem) => {
+
+					eItem.View.Animate().SetDuration(500).ScaleY(0);
+					//eItem.View.StartAnimation(animation);
+				};
+
 			}
 		}
 
 		void OnItemClick(object sender, Android.Widget.AdapterView.ItemClickEventArgs e)
 		{
-			e.View.Animate()
-			.SetDuration(1000)
-			.Alpha(0)
-			.WithEndAction(new Runnable(() =>
-			{
+			//e.View.Animate()
+			//.SetDuration(1000)
+			//.Alpha(0)
+			//.WithEndAction(new Runnable(() =>
+			//{
 
-			}));
+			//}));
+
+
 
 			System.Diagnostics.Debug.WriteLine("Item clicked! yay!");
 		}
 
 	}
+
 }

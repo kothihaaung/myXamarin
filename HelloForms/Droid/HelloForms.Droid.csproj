@@ -113,6 +113,7 @@
     <Compile Include="NativeAndroidListViewRenderer.cs" />
     <Compile Include="MyEntryRenderer.cs" />
     <Compile Include="MyListViewRenderer.cs" />
+    <Compile Include="MyDroidCustomViewCellRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -131,6 +132,11 @@
     <AndroidResource Include="Resources\layout\MyLayout.axml" />
     <AndroidResource Include="Resources\drawable\Nouveau_Grand_C4_Picasso.png" />
     <AndroidResource Include="Resources\drawable\MyEntryBorderLayout.xml" />
+    <AndroidResource Include="Resources\anim\slide_out.xml" />
+    <AndroidResource Include="Resources\layout\MyAndroidCell.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\anim\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.2\build\Xamarin.Build.Download.targets')" />
