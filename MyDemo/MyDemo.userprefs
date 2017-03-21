@@ -1,6 +1,13 @@
 ﻿<Properties StartupConfiguration="{C8390FF9-DB0C-4DD6-80A0-3C421012CEBD}|Default">
   <MonoDevelop.Ide.ItemProperties.MyDemo.Droid PreferredExecutionTarget="Android.GalaxyNexus_api_24" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyDemo/App.xaml.cs">
+    <Files>
+      <File FileName="MyDemo/MyDemoCollapsePage.xaml.cs" Line="8" Column="2" />
+      <File FileName="MyDemo/MyViews/MyCollapseView.cs" Line="7" Column="29" />
+      <File FileName="Droid/MyRenderers/CollapseViewRenderer.cs" Line="23" Column="4" />
+      <File FileName="MyDemo/App.xaml.cs" Line="9" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

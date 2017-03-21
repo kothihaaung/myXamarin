@@ -2,6 +2,10 @@ MyDemo.Droid.MainActivity, MyDemo.Droid;md55c067695017fce6ebacfce075a8c2acf.Main
 MyDemo.Droid.MainActivity, MyDemo.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c067695017fce6ebacfce075a8c2acf.MainActivity
 MyDemo.Droid.MainActivity;md55c067695017fce6ebacfce075a8c2acf.MainActivity
 mydemo.droid.MainActivity;md55c067695017fce6ebacfce075a8c2acf.MainActivity
+MyDemo.Droid.CollapseViewRenderer, MyDemo.Droid;md55c067695017fce6ebacfce075a8c2acf.CollapseViewRenderer
+MyDemo.Droid.CollapseViewRenderer, MyDemo.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55c067695017fce6ebacfce075a8c2acf.CollapseViewRenderer
+MyDemo.Droid.CollapseViewRenderer;md55c067695017fce6ebacfce075a8c2acf.CollapseViewRenderer
+mydemo.droid.CollapseViewRenderer;md55c067695017fce6ebacfce075a8c2acf.CollapseViewRenderer
 Android.Support.V4.View.ViewPager/IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager+IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
