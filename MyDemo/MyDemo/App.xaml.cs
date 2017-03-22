@@ -8,7 +8,7 @@ namespace MyDemo
 		{
 			InitializeComponent();
 
-			MainPage = new MyDemoCollapsePage();
+			MainPage = new MyStackCollapseView();
 		}
 
 		protected override void OnStart()

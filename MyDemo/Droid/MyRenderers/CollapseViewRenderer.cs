@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
 using Android.Widget;
+using Android.Support.V7.Widget;
 
 using MyDemo;
 using MyDemo.Droid;
@@ -26,8 +27,8 @@ namespace MyDemo.Droid
 			{
 				Android.Views.View view = Android.Views.LayoutInflater.From(Forms.Context).Inflate(Resource.Layout.MyCollapseViewLayout, null, false);
 
-				TextView textView = (TextView) view.FindViewById(Resource.Id.textView);
-				textView.Text = "This is modified!";
+				RecyclerView recyclerView = (RecyclerView) view.FindViewById(Resource.Id.textView);
+
 
 				view.SetBackgroundColor(Android.Graphics.Color.Gold);
 

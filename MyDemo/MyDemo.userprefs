@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{C8390FF9-DB0C-4DD6-80A0-3C421012CEBD}|Default">
   <MonoDevelop.Ide.ItemProperties.MyDemo.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.GalaxyNexus_api_24" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MyRenderers/CollapseRecyclerView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyDemo/MyStackCollapseView.xaml.cs">
     <Files>
-      <File FileName="MyDemo/MyDemoCollapsePage.xaml.cs" Line="8" Column="2" />
-      <File FileName="MyDemo/MyViews/MyCollapseView.cs" Line="10" Column="28" />
-      <File FileName="Droid/MyRenderers/CollapseViewRenderer.cs" Line="18" Column="3" />
-      <File FileName="Droid/Resources/layout/MyCollapseViewLayout.axml" Line="5" Column="38" />
-      <File FileName="Droid/Resources/layout/MyCollapseViewItemLayout.axml" Line="9" Column="36" />
-      <File FileName="Droid/MyRenderers/CollapseRecyclerView.cs" Line="1" Column="1" />
+      <File FileName="MyDemo/MyStackCollapseView.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

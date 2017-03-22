@@ -12,3 +12,5 @@
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyDemoCollapsePage.xaml
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyDemoCollapsePage.xaml.g.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyStackCollapseView.xaml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyStackCollapseView.xaml.g.cs
