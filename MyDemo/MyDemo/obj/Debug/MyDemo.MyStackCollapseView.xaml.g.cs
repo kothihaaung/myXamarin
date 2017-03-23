@@ -23,7 +23,7 @@ namespace MyDemo {
         private global::Xamarin.Forms.ScrollView scrollView;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.RelativeLayout relativeLayout;
+        private global::Xamarin.Forms.StackLayout stackLayout;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.RelativeLayout itemLayout;
@@ -33,7 +33,7 @@ namespace MyDemo {
             this.LoadFromXaml(typeof(MyStackCollapseView));
             mainRelativeLayout = this.FindByName <global::Xamarin.Forms.RelativeLayout>("mainRelativeLayout");
             scrollView = this.FindByName <global::Xamarin.Forms.ScrollView>("scrollView");
-            relativeLayout = this.FindByName <global::Xamarin.Forms.RelativeLayout>("relativeLayout");
+            stackLayout = this.FindByName <global::Xamarin.Forms.StackLayout>("stackLayout");
             itemLayout = this.FindByName <global::Xamarin.Forms.RelativeLayout>("itemLayout");
         }
     }

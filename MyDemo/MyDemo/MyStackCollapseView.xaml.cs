@@ -26,21 +26,23 @@ namespace MyDemo
 		{
 			InitializeComponent();
 
+
 			mainRelativeLayout.Children.Add(scrollView, Constraint.Constant(0),
 											Constraint.Constant(0),
 											Constraint.RelativeToParent(p => p.Width),
-											Constraint.Constant(200));
+			                                Constraint.Constant((4 * 50) + (4 * 2)));
 
-			relativeLayout.Children.Add(itemLayout, Constraint.Constant(0),
-											Constraint.Constant(0),
-											Constraint.RelativeToParent(p => p.Width),
-			                            Constraint.Constant(200));
+			//relativeLayout.Children.Add(itemLayout, Constraint.Constant(0),
+			//								Constraint.Constant(0),
+			//								Constraint.RelativeToParent(p => p.Width),
+			//                            Constraint.RelativeToParent(p => p.Height));
 
+			// Layout Changed Event
 			this.LayoutChanged += (sender, e) => { 
 			
 				for (int i = 0; i < 4; i++)
 				{
-					var myLabel = new MyLabel { BackgroundColor = Color.Red, labelId = i, expended = false};
+					var myLabel = new MyLabel { BackgroundColor = Color.Orange, labelId = i, expended = false};
 					Rectangle myLabelBonds = new Rectangle();
 					myLabelBonds.X = 0;
 					myLabelBonds.Y = (i * 50) + (i * 2);
@@ -54,10 +56,8 @@ namespace MyDemo
 
 						if (clickedLabel.expended == false)
 						{
-							// resize scrollview
-							//Rectangle itemViewBounds = itemLayout.Bounds;
-							//itemViewBounds.Height = 400;//(4 * 50) + 50 + (4 * 2);
-							//itemLayout.Layout(itemViewBounds);
+							// resize scrollable height
+							stackLayout.HeightRequest = (4 * 50) + (4 * 2) + 50;
 
 							Rectangle clickedLabelBounds = clickedLabel.Bounds;
 							clickedLabelBounds.Height += 50;
@@ -72,7 +72,7 @@ namespace MyDemo
 
 									Rectangle yEditLabelBounds = yEditLabel.Bounds;
 									yEditLabelBounds.Y += 50;
-									await yEditLabel.LayoutTo(yEditLabelBounds, 100, null);
+									yEditLabel.LayoutTo(yEditLabelBounds, 100, null);
 								}
 							}
 
@@ -81,11 +81,6 @@ namespace MyDemo
 						}
 						else
 						{
-							// resize scrollview
-							//Rectangle itemViewBounds = itemLayout.Bounds;
-							//itemViewBounds.Height = (4 * 50) + (4 * 2);
-							//itemLayout.Layout(itemViewBounds);
-
 							Rectangle clickedLabelBounds = clickedLabel.Bounds;
 							clickedLabelBounds.Height -= 50;
 							await clickedLabel.LayoutTo(clickedLabelBounds, 100, Easing.Linear);
@@ -100,12 +95,11 @@ namespace MyDemo
 
 									Rectangle yEditLabelBounds = yEditLabel.Bounds;
 									yEditLabelBounds.Y -= 50;
-									await yEditLabel.LayoutTo(yEditLabelBounds, 100, null);
+									yEditLabel.LayoutTo(yEditLabelBounds, 100, null);
 								}
 							}
 
 							clickedLabel.expended = false;
-
 
 						}
 
@@ -121,5 +115,8 @@ namespace MyDemo
 
 
 		}
+
+
+
 	}
 }

@@ -4,13 +4,12 @@
 		<RelativeLayout x:Name="mainRelativeLayout"
 			>
 			<ScrollView x:Name="scrollView" BackgroundColor="Purple">
-				<RelativeLayout x:Name="relativeLayout">
+				<StackLayout x:Name="stackLayout">
 					<RelativeLayout 
 						x:Name="itemLayout" 
 						BackgroundColor="Gray">
 					</RelativeLayout>
-				</RelativeLayout>
-
+				</StackLayout>
 			</ScrollView>	
 		</RelativeLayout>
 
