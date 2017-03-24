@@ -1,8 +1,8 @@
-﻿<Properties StartupConfiguration="{DD9F91E6-79B1-4DC4-A2EB-8760F9FBBDF4}|Default">
-  <MonoDevelop.Ide.ItemProperties.MyDemo.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.95e130a8" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{C8390FF9-DB0C-4DD6-80A0-3C421012CEBD}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyDemo.Droid PreferredExecutionTarget="Android.Nexus_5_api_23" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyDemo/MyStackCollapseView.xaml.cs">
     <Files>
-      <File FileName="MyDemo/MyStackCollapseView.xaml.cs" Line="36" Column="13" />
+      <File FileName="MyDemo/MyStackCollapseView.xaml.cs" Line="80" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

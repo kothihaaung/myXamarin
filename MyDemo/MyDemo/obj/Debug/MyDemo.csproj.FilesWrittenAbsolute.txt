@@ -1,8 +1,12 @@
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.App.xaml
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyDemoPage.xaml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyDemoCollapsePage.xaml
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyStackCollapseView.xaml
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.App.xaml.g.cs
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyDemoPage.xaml.g.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyDemoCollapsePage.xaml.g.cs
+/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyStackCollapseView.xaml.g.cs
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/bin/Debug/MyDemo.dll.mdb
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/bin/Debug/MyDemo.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.dll
@@ -10,7 +14,3 @@
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/bin/Debug/Xamarin.Forms.Core.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyDemoCollapsePage.xaml
-/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyDemoCollapsePage.xaml.g.cs
-/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyStackCollapseView.xaml
-/Users/apvmm06/Documents/me/leothihaaung/myXamarin/MyDemo/MyDemo/obj/Debug/MyDemo.MyStackCollapseView.xaml.g.cs

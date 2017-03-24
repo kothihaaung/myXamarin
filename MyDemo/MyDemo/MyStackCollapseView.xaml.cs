@@ -22,10 +22,10 @@ namespace MyDemo
 
 	public partial class MyStackCollapseView : ContentPage
 	{
+
 		public MyStackCollapseView()
 		{
 			InitializeComponent();
-
 
 			mainRelativeLayout.Children.Add(scrollView, Constraint.Constant(0),
 											Constraint.Constant(0),
@@ -38,8 +38,9 @@ namespace MyDemo
 			//                            Constraint.RelativeToParent(p => p.Height));
 
 			// Layout Changed Event
-			this.LayoutChanged += (sender, e) => { 
-			
+			this.LayoutChanged += (sender, e) => {
+
+
 				for (int i = 0; i < 4; i++)
 				{
 					var myLabel = new MyLabel { BackgroundColor = Color.Orange, labelId = i, expended = false};
@@ -50,6 +51,7 @@ namespace MyDemo
 					myLabelBonds.Height = 50;
 
 					var tap = new TapGestureRecognizer();
+					tap.NumberOfTapsRequired = 1;
 					tap.Tapped += async (vLabel, eLabel) => {
 
 						var clickedLabel = (MyLabel)vLabel;
